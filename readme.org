@@ -1,0 +1,12 @@
+#+TITLE: Readme
+#+AUTHOR: Gabriel Gutierrez
+
+A simple package manager for the [[https://wren.io][wren]] programming language. *Not ready for use*
+
+** Goals for 1.0
+
+   /More goals will be added as they become apparent./
+
+   - [ ] Rewrite in Wren 
+   - [ ] Allow installation of entire Git repos
+   - [ ] Create a central package index

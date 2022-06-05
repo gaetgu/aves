@@ -1,0 +1,18 @@
+#!/usr/local/bin/io
+
+# Create a new egg list.
+eggList := EggList clone
+
+# Run the commands, Igor!
+(System args at(1) == "init") ifTrue(
+	eggList initialize
+	"Aves initialized. Edit `eggs.txt` to add packages." println
+)
+
+(System args at(1) == "install") ifTrue(
+	eggList install
+)
+
+(System args at(1) == "clean") ifTrue(
+	eggList clean
+)
